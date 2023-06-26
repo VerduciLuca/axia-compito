@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: wrap;
+}
+
+.navStyle{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px;
+    background-color: #eeeeee;
+    color: #0069ab;
+   
+    grid-template-areas: 'social',  'contacts';
+}
+
+.social{
+
+grid-area: social;
+align-self: start;
+
+}
+
+.contacts{
+    display: grid;
+    align-self: end;
+    grid-area: contacts;
+
+}
+
+.slider{
+    background-image: url(./assets/slider4.jpg);
+    height: 650px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin: 0px;
+    padding: 0px;
+}
