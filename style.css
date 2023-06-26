@@ -36,3 +36,13 @@ align-self: start;
     margin: 0px;
     padding: 0px;
 }
+
+.chiSiamo{
+    display: flex;
+    justify-self: center;
+}
+.starImg{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
